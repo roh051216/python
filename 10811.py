@@ -1,6 +1,6 @@
 N,M = map(int,input().split())
 
-basket = [n for n in range(1,N+1)]
+basket = [n for n in range(1,N+1)] #노용균
 
 for i in range(M):
     i,j = map(int,input().split())
